@@ -1,0 +1,141 @@
+
+@font-face {
+	font-family: calculatorFont;
+	src: url(calculator.ttf);
+}
+
+
+@font-face {
+	font-family: headingFont;
+	src: url(CooperBlackStd.otf);
+}
+
+
+h1 {
+	text-align: center;
+	font-family: headingFont;
+	font-size: 400%;
+	text-shadow: 5px 5px 10px #888888;
+}
+
+body {
+	background: url(/img/80s_tv.png);
+	background-size: cover;
+}
+.calc {
+
+	height: 410px;
+	width: 300px;
+	margin-top: 5%;
+	position:relative;
+	left: 37.5%;
+	background-color: black;
+	border: 2px solid #908b85;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.leftDisplay {
+	width: 35%;
+	height: 55px;
+  	margin-left: 10px;
+	border: 2px solid #b4b39d;
+	border-radius: 6px;
+	background-color: #c0c719;
+	float: left;
+	margin-top: 8px;
+	font-size: 30px;
+	text-align: left;
+	font-family: calculatorFont;
+
+}
+
+.centerDisplay {
+	width: 15%;
+	height: 55px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 2px solid #b4b39d;
+	border-radius: 6px;
+	background-color: #c0c719;
+	float: left;
+	margin-top: 8px;
+	font-size: 30px;
+	font-family: calculatorFont;
+	text-align: center;
+	
+}
+
+.rightDisplay {
+	width: 35%;
+	height: 55px;
+	margin-right: 10px;
+	border: 2px solid #b4b39d;
+	border-radius: 6px;
+	background-color: #c0c719;
+	float:left;
+	margin-top: 8px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: calculatorFont;
+	text-align: right;
+
+}
+
+.numbers {
+	width:55px;
+	height:55px;
+	border-radius: 6px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	display: inline-block;
+	font-size: 170%;
+	border-color: 10px solid gray;
+	font-family: calculatorFont;
+
+}
+
+.operator {
+	width:55px;
+	height:55px;
+	border-radius: 6px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	display: inline-block;
+	font-size: 170%;
+	border-color: orange;
+	background-color: orange;
+	font-family: calculatorFont;
+}
+
+.equals {
+	width: 130px;
+	height: 55px;
+	margin-left: 160px;
+	border-radius: 6px;
+	background-color: blue;
+	font-size: 180%;
+	margin-top: 10px;
+	color: white;
+	text-align: center;
+
+}
+
+.clear {
+	width:55px;
+	height:55px;
+	border-radius: 6px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	display: inline-block;
+	font-size: 170%;
+	border-color: red;
+	background-color: red;
+	font-family: calculatorFont;
+}
