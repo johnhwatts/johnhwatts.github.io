@@ -198,7 +198,8 @@ i.service-icon {
 /* Map */
 
 .map {
-  height: 500px;
+  height: 700px;
+  margin-top: 20px;
 }
 
 /* Footer */
