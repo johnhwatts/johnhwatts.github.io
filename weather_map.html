@@ -111,7 +111,7 @@
                         cnt: 3,
                         units: "imperial"
                     }).fail(function(data, status) {
-                        alert("Failed to load:" + status);
+                        console.log("Failed to load:" + status);
                     }).done(function(data) {
                         console.log(data);
                         console.log(data.city.name);
