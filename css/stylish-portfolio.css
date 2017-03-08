@@ -172,14 +172,14 @@ i.service-icon {
 
 .wrap
 {
-    width: 320px;
+    width: 100%;
     height: 192px;
     padding: 0;
     overflow: hidden;
 }
 .frame
 {
-    width: 1500px;
+    width: 420%;
     height: 786px;
     border: 0;
     -ms-transform: scale(0.25);
@@ -222,7 +222,7 @@ i.service-icon {
 /* Map */
 
 .map {
-  height: 700px;
+  height: 300px;
   margin-top: 20px;
 }
 
