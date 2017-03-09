@@ -180,6 +180,8 @@ i.service-icon {
 
 .img-portfolio {
   margin: 0 auto;
+  height: 230px;
+  border-radius: 5px;
 }
 
 
@@ -200,6 +202,11 @@ i.service-icon {
 .map {
   height: 300px;
   margin-top: 20px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 /* Footer */
