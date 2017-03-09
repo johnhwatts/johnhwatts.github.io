@@ -10,6 +10,13 @@
 	src: url(CooperBlackStd.otf);
 }
 
+html { 
+  background: url(/img/80s_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 h1 {
 	text-align: center;
@@ -18,10 +25,20 @@ h1 {
 	text-shadow: 5px 5px 10px #888888;
 }
 
+/*@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
 body {
 	background: url(/img/80s_background.jpg);
 	background-size: cover;
 }
+}
+
+body {
+	background: url(/img/80s_background.jpg);
+	background-size: cover;
+}*/
+
 .calc {
 
 	height: 410px;
