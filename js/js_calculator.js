@@ -6,12 +6,12 @@
 	var centerDisplay = document.getElementById("centerDisplay");
 	var rightDisplay = document.getElementById("rightDisplay");
 	var numbers = document.getElementsByClassName("numbers");
-	
+
 	//A function to display button input in the display of calculator
 function displayNumber() {
 	// append the display's inner text with the innerText of the button clicked
-	
-	if (centerDisplay.innerText == "") {
+
+	if (centerDisplay.innerText === "") {
 		if(this.innerText == "."){
 			if(leftDisplay.innerText.indexOf(".") == -1){
 				leftDisplay.innerText += this.innerText;
@@ -29,17 +29,17 @@ function displayNumber() {
 		}
 	}
 }
-	
+
 	for(var i = 0; i < numbers.length; i++) {
 	numbers[i].addEventListener("click", displayNumber);
 	}
 
-// a fucntion to return result of maths 
+// a fucntion to return result of maths
 function math() {
-	
+
 	var result;
 	switch (centerDisplay.innerText) {
-		case "+": 
+		case "+":
 			result = parseFloat(leftDisplay.innerText) + parseFloat(rightDisplay.innerText);
 			break;
 		case "-":
@@ -58,7 +58,7 @@ function math() {
 }
 
 function clear() {
-	
+
 	centerDisplay.innerText = "";
 	leftDisplay.innerText = "";
 	rightDisplay.innerText = "";
@@ -66,24 +66,24 @@ function clear() {
 
 //All event listeners
 
-document.getElementById("equals").addEventListener("click", math);	
+document.getElementById("equals").addEventListener("click", math);
 
 document.getElementById("clear").addEventListener("click", clear);
 
 document.getElementById("plus").addEventListener("click", function() {
 	centerDisplay.innerText = "+";
-})
+});
 
 document.getElementById("minus").addEventListener("click", function() {
 	centerDisplay.innerText = "-";
-})
+});
 
 document.getElementById("multiply").addEventListener("click", function() {
 	centerDisplay.innerText = "X";
-})
+});
 
 document.getElementById("divide").addEventListener("click", function() {
 	centerDisplay.innerText = "÷";
-})
+});
 
 })();
